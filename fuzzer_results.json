@@ -1,0 +1,1918 @@
+{
+    "80": {
+        "predicted_rule": "No rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http S / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http SA / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http A / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http S / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http SA / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http A / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http S / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http SA / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http A / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "S",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http S / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "SA",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http SA / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "A",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http A / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "48XWn1o21nyAHRMoy34vLQ1FvrOy5WOGWSdARWERprJRzt9lbG",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "S",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http S / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "SA",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http SA / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "A",
+                "response": "Response received",
+                "probability": "0%",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http A / Raw",
+                "note": "The traffic passed through, indicating a low or zero probability of an IPS rule blocking this payload."
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "B500KZBdO7uRb2X0hR7qfxE43acVpsx4yBPHyQKdJPXmYRGIVNhBJrN23fMTHVpt9jpb83jI7Fdt2OF621kU7zgds1TAlmKD2c1Z",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 80 (msg:\"IPS rule to block traffic for port 80\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "21": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "XoVv3bwoTf9eJS5SNd0dja4IGxO0ODHGOPP4C7ang1ND8r8cGJ",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "8sE8RIh1rnEEskO6459HcyXtbJAb2WhaM49ZmuIOuIyFYpMPJasp5At14OQeqzNdwOLRieT3WqOb3DQIDhBFGyvEWxT3Tk9h6REp",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "22": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "hrjyXoKh4QTgNds2Ctgely2Jcw3wRPRdmZD7LA75rf5CUhDQrV",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "PrXouJ4hJ7OjVJhmHLgANNBNRn1gkuKcF8AVunuk7YaomoUxjWt7fsbtxK0OcuRu6cv9tUIIU36vrrb0zvKvRq9dezD4hAB5bRcf",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "25": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "dJ8zIfcx4DZZty6qPT8REjYbxL2qlhXYxz6JpT0brpY2AVPTCn",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "uYRbz0KwE1c4NtBYzD2CL1lMFND9VF1eGrULJevYZTT3Fd9wzPWFcm6YkppDxQLdPhtr5O26sR0XPcF3tnbJXob70bYkAS1diP0i",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "110": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "NUhdM0wiNYTzn2fvZOdM4yp6eFHTk9JREFiInKtpC204NMVUDd",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "rD2HooLD6wQlynktyWDNTt1rD9AMQSuhKBZTtk6D3WPxgZavaWaHxYGa5NYJkMqnLZQ2V2GRUzc7L0gDbULrGzd4yR6qnc17Zrjn",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "143": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "IOdWQ4Shxw2htC1rnb1RDmeQ6p9eLE027kg3HrO8fI8PijgNZ9",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "HqnI5sKdYPdizFmYEveDngGKkg3yXqK6LPueOZn0SLVweBiGJY4sh9E3GgGeT5CixRMCHGtYsAh0Lj4VdPwe0RgzSXVDUg7WgE5F",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}{
+    "443": {
+        "predicted_rule": "Likely rule triggered",
+        "details": [
+            {
+                "payload": "normal data",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "normal data",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "<script>alert('XSS')</script>",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "' OR '1'='1'; --",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "5gyDQFuxX3fYcYPZOCMisq51VaHGK0cxjakk7xVRbJG05S00cF",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "S",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https S / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "SA",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https SA / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "A",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https A / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "F",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https F / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "P",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https P / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            },
+            {
+                "payload": "q4B9cu0HmYqk06luRmvwnfwrm0DRqotUqRH0B7OT7OIAyOzYz4IvYepI8C915hX8pWZ4EiJIXsf4NeBTb6Il5fdCfDg8LNXxTkge",
+                "flags": "R",
+                "response": "No response",
+                "probability": "100%",
+                "note": "This response indicates a high probability that an IPS rule is blocking the traffic.",
+                "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+                "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+            }
+        ]
+    }
+}
