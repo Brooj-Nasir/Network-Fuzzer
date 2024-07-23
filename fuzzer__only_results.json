@@ -1,0 +1,71 @@
+{
+    "port": 80,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 15,
+        "total_rules_triggered": 15,
+        "rule_detection_ratio": "50.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:http R / Raw",
+        "sample_rule": "Based on the probability, it appears that no IPS rule is configured for port 80, or the IPS was unable to block some of our payloads for this port."
+    }
+}{
+    "port": 21,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ftp R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 21 (msg:\"IPS rule to block traffic for port 21\"; sid:1; rev:1;)"
+    }
+}{
+    "port": 22,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:ssh R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 22 (msg:\"IPS rule to block traffic for port 22\"; sid:1; rev:1;)"
+    }
+}{
+    "port": 25,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:smtp R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 25 (msg:\"IPS rule to block traffic for port 25\"; sid:1; rev:1;)"
+    }
+}{
+    "port": 110,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:pop3 R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 110 (msg:\"IPS rule to block traffic for port 110\"; sid:1; rev:1;)"
+    }
+}{
+    "port": 143,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:imap2 R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 143 (msg:\"IPS rule to block traffic for port 143\"; sid:1; rev:1;)"
+    }
+}{
+    "port": 443,
+    "result": {
+        "total_packets_sent": 30,
+        "total_responses_received": 0,
+        "total_rules_triggered": 30,
+        "rule_detection_ratio": "100.00%",
+        "packet_summary": "IP / TCP 192.168.240.130:12345 > 192.168.240.129:https R / Raw",
+        "sample_rule": "alert tcp any any -> $HOME_NET 443 (msg:\"IPS rule to block traffic for port 443\"; sid:1; rev:1;)"
+    }
+}
